@@ -23,6 +23,7 @@ class Home extends StatelessWidget {
 }
 
 Widget _swiperCards(){
-    return CardSwipper(
+    return CardSwiper(
+      items: [1,2,3,5,8,13,100],
     );
   }
