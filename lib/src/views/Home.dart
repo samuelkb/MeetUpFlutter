@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrum_pocket/src/widgets/card_swipper.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -15,8 +16,13 @@ class Home extends StatelessWidget {
         ),
       ),
       body: Container(
-        child: Text("Vista HOME"),
+        child: _swiperCards(),
       ),
     );
   }
 }
+
+Widget _swiperCards(){
+    return CardSwipper(
+    );
+  }
